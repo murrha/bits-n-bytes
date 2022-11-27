@@ -12,4 +12,8 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  sendEmail(){
+    window.alert('Email sent! We will respond back as soon as possible!'); 
+  }
+
 }
