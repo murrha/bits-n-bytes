@@ -1,0 +1,31 @@
+h2{
+  text-align: center;
+  font-weight: bold;
+  padding: 20px; 
+}
+
+nbg-carousel {
+  padding: 20px;
+}
+
+nbg-carousel
+ .picsum-img-wrapper{
+  position: relative;
+  height: 0;
+  padding-top: 55%;
+ }
+
+ nbg-carousel
+ .picsum-img-wrapper > img{
+  position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+ }
+
+ img{
+  display: block;
+  width: 100%;
+  height: auto;
+ }

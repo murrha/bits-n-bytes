@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #fff; 
+}
+
+ul{
+  list-style: none;
+  float: right;
+
+}
+
+li{
+  display: inline;
+  padding: 20px;
+}
+
+nav{
+  margin: auto;
+  overflow: hidden;
+  padding: 10px;
+  background-color: #000;
+}

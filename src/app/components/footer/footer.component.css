@@ -1,0 +1,35 @@
+*{
+  color: #fff;
+}
+
+footer{
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a{
+  display: inline-block;
+  padding: 5px;
+}
+
+footer button{
+  background-color:darkred;
+  color: #fff;
+  border-radius: 10%;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+}
+
+.icons{
+  max-width: 50px;
+  max-height: 50px;
+}
