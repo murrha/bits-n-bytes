@@ -4,7 +4,11 @@
 }
 
 a{
-  color: #fff; 
+  color: #fff;
+}
+
+a:hover{
+  color: red;
 }
 
 ul{
